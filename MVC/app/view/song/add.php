@@ -12,7 +12,10 @@
 </head>
 <body>
 <div class="container">
-
+    <div class="d-flex">
+    <a class="h1 " href="../home/index.php"><i class="bi bi-house"></i></a>
+    <h1 class="text-success mx-3 mb-5">Thêm mới</h1>
+    </div>
     <form action="../../services/SongService.php" method="post">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Tên bài hát</label>
@@ -28,6 +31,7 @@
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+    
 </div>
 </body>
 </html>
